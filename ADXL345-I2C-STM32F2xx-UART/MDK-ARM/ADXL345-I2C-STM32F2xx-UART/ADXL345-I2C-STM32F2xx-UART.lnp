@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+".\adxl345-i2c-stm32f2xx-uart\system_stm32f2xx.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_gpio.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_i2c.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_flash.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_tim.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_cortex.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_pwr_ex.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_rcc_ex.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_tim_ex.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_rcc.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_flash_ex.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_dma_ex.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_pwr.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_dma.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_uart.o"
+".\adxl345-i2c-stm32f2xx-uart\startup_stm32f205xx.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_hal_msp.o"
+".\adxl345-i2c-stm32f2xx-uart\main.o"
+".\adxl345-i2c-stm32f2xx-uart\stm32f2xx_it.o"
+".\adxl345-i2c-stm32f2xx-uart\adxl345_driver_english.o"
+--library_type=microlib --strict --scatter ".\ADXL345-I2C-STM32F2xx-UART\ADXL345-I2C-STM32F2xx-UART.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADXL345-I2C-STM32F2xx-UART.map" -o .\ADXL345-I2C-STM32F2xx-UART\ADXL345-I2C-STM32F2xx-UART.axf
